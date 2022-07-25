@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Counter {
+
+        int current;
+
+        // write your methods here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2953#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:14: error: 'void' type not allowed here
+            if (counter.getCurrent() != counter.getCurrent())
+                                  ^
+    Main.java:14: error: 'void' type not allowed here
+            if (counter.getCurrent() != counter.getCurrent())
+                                                          ^
+    Main.java:16: error: 'void' type not allowed here
+            if (counter.getCurrent() != counter.current)
+                                  ^
+    3 errors
+  time: Sun, 24 Jul 2022 20:53:28 UTC
+record: -1
